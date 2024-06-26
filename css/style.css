@@ -5582,6 +5582,11 @@ body.loaded .big-slider-product .preview {
   width: 230px !important;
   height: 50px !important;
 }
+.lms-logo-footer {
+  width: 230px !important;
+  height: 50px !important;
+  background-color: white;
+}
 .book-slide-img {
   height: fit-content !important;
 }
