@@ -1837,9 +1837,9 @@ header {
   border-left: 1px #eee solid;
   border-right: 1px #eee solid;
   margin-left: -1px;
-  padding: 20px 25px;
-  font-size: 10px;
-  line-height: 20px;
+  padding: 20px 30px;
+  font-size: 13px;
+  line-height: 15px;
   color: #888;
   text-transform: uppercase;
   position: relative;
