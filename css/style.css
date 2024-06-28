@@ -5434,7 +5434,7 @@ body.loaded .big-slider-product .preview {
   width: 100%;
 }
 .cart-table th {
-  background: #343434;
+  background: var(--primary--violet);
   font-weight: 700;
   font-family: "Raleway", sans-serif;
   font-size: 13px;
@@ -5487,7 +5487,7 @@ body.loaded .big-slider-product .preview {
   }
   .cart-table td:before {
     content: attr(data-title);
-    color: #343434;
+    color: var(--primary--violet);
     font-weight: 900;
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
