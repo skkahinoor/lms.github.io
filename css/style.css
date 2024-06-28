@@ -2559,7 +2559,7 @@ li:hover .megamenu {
   top: 0;
   -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
-  padding: 40px 0 60px 0;
+  padding: 45px 0 0px 0;
   transform: translateY(-100%);
   -webkit-transform: translateY(-100%);
   transition: all 0.3s;
