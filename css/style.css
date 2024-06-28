@@ -5591,5 +5591,5 @@ body.loaded .big-slider-product .preview {
   height: fit-content !important;
 }
 .back-img {
-  background-image: url("img/pg-background.png");
+  background-image: url(img/pg-background.png) !important;
 }
