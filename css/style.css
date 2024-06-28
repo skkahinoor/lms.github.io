@@ -5590,7 +5590,7 @@ body.loaded .big-slider-product .preview {
 .book-slide-img {
   height: fit-content !important;
 }
-.banner-animation {
+#banner-animation {
   -webkit-animation: breathing 5s ease-out infinite normal !important;
   animation: breathing 5s ease-out infinite normal !important;
   -webkit-font-smoothing: antialiased !important;
