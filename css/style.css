@@ -224,8 +224,8 @@ a {
 }
 .content-margins {
   position: relative;
-  border-left: 50px transparent solid;
-  border-right: 50px transparent solid;
+  border-left: 20px transparent solid;
+  border-right: 20px transparent solid;
 }
 @media (max-width: 991px) {
   .content-margins {
@@ -1838,7 +1838,7 @@ header {
   border-right: 1px #eee solid;
   margin-left: -1px;
   padding: 20px 22px;
-  font-size: 12px;
+  font-size: 10px;
   line-height: 15px;
   color: #888;
   text-transform: uppercase;
