@@ -5591,6 +5591,10 @@ body.loaded .big-slider-product .preview {
 .book-slide-img {
   height: fit-content !important;
 }
+.quick-view {
+  height: 300px;
+  width: 300px;
+}
 .menu-iteam-size {
   font-size: 13px !important;
 }
