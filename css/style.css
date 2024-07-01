@@ -5594,3 +5594,12 @@ body.loaded .big-slider-product .preview {
 .menu-iteam-size {
   font-size: 13px !important;
 }
+
+/* User account css  */
+.user-icon {
+  height: 150px;
+  width: 150px;
+  border: solid 4px var(--primary--violet);
+  border-radius: 75px;
+}
+/* End user acc css  */
