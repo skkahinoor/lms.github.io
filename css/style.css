@@ -5622,4 +5622,8 @@ body.loaded .big-slider-product .preview {
   height: 30px;
   border: solid 1px var(--primary--violet);
 }
+.p-user-order-btn {
+  background-color: var(--primary--violet) !important;
+  color: white !important;
+}
 /* End user acc css  */
