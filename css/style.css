@@ -5602,4 +5602,24 @@ body.loaded .big-slider-product .preview {
   border: solid 4px var(--primary--violet);
   border-radius: 75px;
 }
+.p-menu {
+  border: solid 2px var(--primary--violet);
+  height: 100%;
+}
+.p-menu-s1 {
+  background-color: var(--primary--violet);
+  color: white;
+  padding: 5px;
+  height: 35px;
+}
+.p-menu-s2 {
+  padding: 5px;
+  height: 30px;
+  border: solid 1px var(--primary--violet);
+}
+.p-menu-s3 {
+  padding: 5px;
+  height: 30px;
+  border: solid 1px var(--primary--violet);
+}
 /* End user acc css  */
