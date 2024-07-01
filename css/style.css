@@ -2805,7 +2805,7 @@ footer .follow {
   display: block;
 }
 .footer-form-block {
-  background: #b8cd07;
+  background: var(--primary--violet);
   padding: 40px 0;
 }
 /*Phones (<768px)*/
