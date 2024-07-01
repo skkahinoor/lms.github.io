@@ -373,76 +373,149 @@
               </div>
             </div>
             <div class="col-sm-9" style="padding: 10px; height: auto">
-              <div class="card">
-                <div class="card-body p-0">
-                  <div class="table-responsive">
-                    <table class="table table-bordered table-hover">
-                      <thead>
-                        <tr>
-                          <th>Order ID</th>
-                          <th>Name</th>
-                          <th>Date</th>
-                          <th>Payment Status</th>
-                          <th>Status</th>
-                          <th>Total</th>
-                          <th>Action</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>01</td>
-                          <td>John</td>
-                          <td>01 June 2024</td>
-                          <td>Unpaid</td>
-                          <td>Pending</td>
-                          <td>₹ 2234.00</td>
-                          <td>
-                            <a href="#" class="btn p-user-order-btn btn-sm">
-                              <i class="fa fa-check-square-o"></i>
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>02</td>
-                          <td>Hema</td>
-                          <td>10 June 2024</td>
-                          <td>Unpaid</td>
-                          <td>Pending</td>
-                          <td>₹ 1000.00</td>
-                          <td>
-                            <a href="#" class="btn p-user-order-btn btn-sm">
-                              <i class="fa fa-check-square-o"></i>
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>03</td>
-                          <td>David</td>
-                          <td>20 June 2024</td>
-                          <td>Paid</td>
-                          <td>Complete</td>
-                          <td>₹ 15.00</td>
-                          <td>
-                            <a href="#" class="btn p-user-order-btn btn-sm">
-                              <i class="fa fa-check-square-o"></i>
-                            </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>04</td>
-                          <td>Sana</td>
-                          <td>29 June 2024</td>
-                          <td>Paid</td>
-                          <td>Complete</td>
-                          <td>₹ 700.00</td>
-                          <td>
-                            <a href="#" class="btn p-user-order-btn btn-sm">
-                              <i class="fa fa-check-square-o"></i>
-                            </a>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
+              <div class="card" id="invoiceprint">
+                <div class="card-body" style="color: #000">
+                  <div class="invoice-container">
+                    <!-- Header -->
+                    <div>
+                      <div class="row align-items-center">
+                        <div class="col-sm-5 text-center text-sm-left">
+                          <img class="" src="img/Library.png" alt="Logo" />
+                        </div>
+                        <div class="col-sm-7 text-center text-sm-right">
+                          <p class="h4">Invoice</p>
+                        </div>
+                      </div>
+                      <hr />
+                    </div>
+
+                    <!-- Main Content -->
+                    <main>
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <strong>Date:</strong> 01 July 2024
+                        </div>
+                        <div class="col-sm-6 text-sm-right">
+                          <strong>Invoice No:</strong> 0120
+                        </div>
+                      </div>
+                      <hr />
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <strong>Order From</strong>,
+                          <address>
+                            Saheed Nagar<br />9999999999<br />randomuser@gmail.com<br />User
+                            full Address<br />
+                          </address>
+                        </div>
+                        <div class="col-sm-6 text-right">
+                          <strong>Deliver To</strong>,
+                          <address>
+                            Sundarpada<br />8888888888<br />user2@gmail.com<br />User
+                            full address<br />
+                          </address>
+                        </div>
+                      </div>
+                      <div class="empty-space col-xs-b25 col-sm-b20"></div>
+                      <div class="table-responsive">
+                        <table class="table table-bordered mt-3">
+                          <thead>
+                            <tr>
+                              <td><strong>Image</strong></td>
+                              <td><strong>Book</strong></td>
+                              <td><strong>Unit Price</strong></td>
+                              <td><strong>Quantity</strong></td>
+                              <td><strong>Total</strong></td>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td class="p-1">
+                                <img
+                                  class="rounded mx-auto d-block"
+                                  src="img/b.png"
+                                  style="height: 100px; width: 100px"
+                                />
+                              </td>
+                              <td>Book Title</td>
+                              <td>₹ 1000.00</td>
+                              <td>1</td>
+                              <td class="text-bold">₹ 1,000.00</td>
+                            </tr>
+                            <tr>
+                              <td class="p-1">
+                                <img
+                                  class="rounded mx-auto d-block"
+                                  src="img/p (1).png"
+                                  style="height: 100px; width: 100px"
+                                />
+                              </td>
+                              <td>Book Title</td>
+                              <td>100.00</td>
+                              <td>2</td>
+                              <td class="text-bold">₹ 200.00</td>
+                            </tr>
+                            <tr>
+                              <td colspan="4" class="text-right">
+                                Delivery Charge
+                              </td>
+                              <td class="text-bold">0.00</td>
+                            </tr>
+                            <tr>
+                              <td colspan="4" class="text-right">
+                                Discounted Price
+                              </td>
+                              <td class="text-bold">0.00</td>
+                            </tr>
+                            <tr>
+                              <td colspan="4" class="text-right">
+                                <strong>Total</strong>
+                              </td>
+                              <td class="text-bold">₹ 1200.00</td>
+                            </tr>
+                            <tr>
+                              <td colspan="3" class="text-left">
+                                <span
+                                  ><strong>Order Status: </strong>Pending</span
+                                >
+                              </td>
+                              <td colspan="2" class="text-left">
+                                <span
+                                  ><strong>Payment Method: </strong>Cash On
+                                  Delivery</span
+                                >
+                              </td>
+                            </tr>
+                            <tr>
+                              <td colspan="3" class="text-left">
+                                <span
+                                  ><strong>Payment Status: </strong>Paid</span
+                                >
+                              </td>
+                              <td colspan="2" class="text-left">
+                                <span
+                                  ><strong>Payment Amount: </strong>₹
+                                  1200.00</span
+                                >
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </main>
+                    <!-- Footer -->
+                    <div class="text-center mt-4">
+                      <p><strong>Note :</strong> Invoice generate</p>
+                      <div class="empty-space col-xs-b15 col-sm-b10"></div>
+                      <div class="btn-group btn-group-sm d-print-none">
+                        <a
+                          onclick="printDiv('img/p')"
+                          class="btn btn-success text-white"
+                        >
+                          <i class="fa fa-print"></i> Print
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
